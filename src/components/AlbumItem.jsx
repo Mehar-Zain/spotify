@@ -7,7 +7,7 @@ const AlbumItem = ({ id, name, image, desc }) => {
     return (
         <div
             onClick={() => navigate(`/album/${id}`)}
-            className='relative group min-w-[180px] p-2 px-3 rounded cursor-pointer hover:bg-[#ffffff26] transition-colors duration-300'
+            className='relative group min-w-[180px] p-2 rounded cursor-pointer hover:bg-[#ffffff26] transition-colors duration-300'
         >
             {/* Album Art */}
             <div className="relative">
